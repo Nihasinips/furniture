@@ -39,13 +39,13 @@ const Footer = () => {
                         <p className="mb-2">Mobile: +91 9842854888
 </p>
                         <p className="mb-2">E-mail: jaganharin@gmail.com</p>
-                        <p>&copy;{new Date().getFullYear()} Jagan Wood Furnitures. All rights reserved</p>
+                        <p>{new Date().getFullYear()} Jagan Wood Furnitures. All rights reserved</p>
                         
                     </div>
                     <div className="w-full md:w-1/3 mb-6 md:mb-0">
                         <h3 className='text-base font-bold mb-2'>About Us</h3>
                         <p className="mb-2">Welcome to Jagan Wood Furnitures, your ultimate destination for high-quality furniture and home decor! At our shop, we're passionate about providing our customers with beautifully crafted furniture pieces that enhance the aesthetic and comfort of their homes.</p>
-                        <p>&copy;{new Date().getFullYear()} Jagan Wood Furnitures. All rights reserved</p>
+                        <p>{new Date().getFullYear()} Jagan Wood Furnitures. All rights reserved</p>
                     </div>
                     <FooterList>
                         <h3 className="text-base font-bold mb-2">Follow Us</h3>
