@@ -7,7 +7,7 @@ const Cart = async () => {
     return ( 
     <div className="pt-8">
        <Container>
-        <CartClient currentUser={currentUser}/>
+        <CartClient currentUser={null}/>
        </Container>
     </div> 
     );
